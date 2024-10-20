@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+#main-navbar {
+    background-color: blue; /* Background color for the navigation */
+    width: 100%; /* Full width of the page */
+    position: relative; /* Allows for positioning of child elements */
+}
+
+#navbar-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the items */
+}
+
+#main-navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+#main-navbar li {
+    display: inline; /* Displays list items inline */
+}
+
+#main-navbar a {
+    padding: 10px 20px; /* Adds padding for better spacing */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Removes underline */
+    background-color: #000; /* Background color for links */
+}
+
+#main-navbar a:hover {
+    text-decoration: underline overline; /* Underline on hover */
+}
+
+/* Sidebar Styles */
+#sidebar {
+    position: fixed; /* Keeps the sidebar fixed in place */
+    right: 0; /* Aligns to the right */
+    background-color: red; /* Background color for the sidebar */
+    height: 100%; /* Full height of the viewport */
+    width: 20%; /* Sidebar width */
+    list-style-type: none; /* Removes bullet points */
+    text-align: center; /* Centers text in the sidebar */
+    padding: 15px 0; /* Adds padding for better spacing */
+}
+
+#sidebar ul {
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+#sidebar a {
+    display: block; /* Makes the entire area clickable */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Removes underline */
+}
+
+#sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
